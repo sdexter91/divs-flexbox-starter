@@ -97,41 +97,89 @@ textarea {
 
 
 html {
-  background-color: #222;
+  background-color: #ffe6e6;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  padding: 2em;
-  color: #fff;
-  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  padding: 0em 2em;
+  font-size: 1.25em;
+  color: #404040;
+  display: flex;
+  justify-content: center;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
+.flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
 }
 
-.div-1, .div-2, .div-3 {
+p span {
+  font-family: 'Handlee', cursive;
+}
+
+header, 
+footer {
+  background-color: #ffe6e6;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header h1 {
+  font-family: 'Handlee', cursive;
+  font-size: 6em;
+}
+
+main {
+  background-color: #ffe6e6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px grey;
+  margin-bottom: 30px;
+}
+
+main p {
+  font-size: 1.5em;
+}
+
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color:  #404040;
   line-height: 1.5em;
   font-size: 1.25em;
-  background-color: #222;
-  height: 300px;
-  display: flex;
+  background-color:  #ffe6e6;
   width: 30%;
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
   border-right: solid 1px grey;
-  padding-right: 30px;
+  font-family: 'Raleway', sans-serif;
 }
+
+#div-3 {
+  border-right: none;
+}
+
+footer {
+  border-top: solid 1px grey;
+  margin-top: 30px;
+}
+
+footer img {
+  height: 50px;
+  padding: 30px 20px 30px 0;
+
+}
+
+
+
 
 
 
